@@ -19,6 +19,7 @@
     <jacoco.unit-tests.limit.branch-ratio>0%</jacoco.unit-tests.limit.branch-ratio>
     <jacoco.unit-tests.limit.class-complexity>20</jacoco.unit-tests.limit.class-complexity>
     <jacoco.unit-tests.limit.method-complexity>5</jacoco.unit-tests.limit.method-complexity>
+    <hll.version>1.6.0</hll.version>
   </properties>
   <dependencies>
 
@@ -40,6 +41,18 @@
       <artifactId>awaitility</artifactId>
       <version>1.7.0</version>
       <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>net.agkn</groupId>
+      <artifactId>hll</artifactId>
+      <version>${hll.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+      <version>23.0</version>
     </dependency>
 
     <dependency>
